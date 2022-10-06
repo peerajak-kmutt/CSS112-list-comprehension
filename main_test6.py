@@ -2,7 +2,7 @@ from problem6 import p6
 import io
 
 
-def test_problem4(monkeypatch,capsys):  # or use "capfd" for fd-level
+def test_problem6(monkeypatch,capsys):  # or use "capfd" for fd-level
     with open('infile6.txt') as fi:
         lines_i = [line for line in fi]
     str_in = "".join(lines_i)

@@ -10,6 +10,6 @@ def test_problem4(monkeypatch,capsys):  # or use "capfd" for fd-level
         lines_o = [line for line in fo]
     str_out = "".join(lines_o)
     monkeypatch.setattr('sys.stdin', io.StringIO(str_in))
-    p2() 
+    p4() 
     captured = capsys.readouterr()
     assert captured.out == str_out

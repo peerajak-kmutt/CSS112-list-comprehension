@@ -1,7 +1,9 @@
 def p1():
     x=input().split()
     c=input()
-    ans = [i.count(c) for i in x]
+    #Your code here
+    ans = []
+    #End Your Code
     print(*ans)
 
 
